@@ -27,6 +27,7 @@ h2 {
     display: inline-block;
     position: relative;
     margin: 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #000000)
 }
 
 .time span {
