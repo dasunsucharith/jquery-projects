@@ -3,9 +3,9 @@ $(document).ready(function () {
         // Make floating label more accurate
         var inputValue = $(this).val();
         if (inputValue === "") {
-            $(this).removeClass("has-value");
+            $(this).removeClass("active");
         } else {
-            $(this).addClass("has-value");
+            $(this).addClass("active");
         }
     })
 })

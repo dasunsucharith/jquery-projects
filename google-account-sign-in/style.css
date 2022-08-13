@@ -96,7 +96,7 @@ form .input-box .input-field:focus + .placeholder {
 }
 
 form .input-box .input-field:focus + .placeholder,
-form .input-box .input-field:has-value + .placeholder {
+form .input-box .input-field:active + .placeholder {
     transform: scale(0.75) translateY(-39px);
 }
 
